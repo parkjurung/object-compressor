@@ -1,0 +1,26 @@
+{
+  "name": "object-compressor",
+  "version": "1.0.0",
+  "description": "npm module for compressing js objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkjurung/object-compressor.git"
+  },
+  "keywords": [
+    "javascript",
+    "object",
+    "compress",
+    "minify",
+    "zip"
+  ],
+  "author": "Park Jurung",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/parkjurung/object-compressor/issues"
+  },
+  "homepage": "https://github.com/parkjurung/object-compressor#readme"
+}
