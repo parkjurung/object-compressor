@@ -1,4 +1,5 @@
 "use strict";
+exports.__esModule = true;
 exports.SAMPLE_PLAIN = [
     {
         type: '[ADD] Ball',

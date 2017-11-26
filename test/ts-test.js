@@ -1,4 +1,5 @@
 "use strict";
+exports.__esModule = true;
 var compressor_1 = require("../lib/compressor");
 var sample_1 = require("../sample");
 var original = sample_1.SAMPLE_PLAIN;
