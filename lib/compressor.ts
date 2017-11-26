@@ -89,12 +89,3 @@ function innerDecompress(object: any, dictionary: { [min: string]: string }) {
   }
 }
 
-const original = SAMPLE_PLAIN;
-const compressResult = compress(SAMPLE_PLAIN);
-const decompressed = decompress(compressResult);
-
-console.log('original.length', JSON.stringify(original).length);
-console.log('compressResult.length', JSON.stringify(compressResult).length);
-console.log('depressed.length', JSON.stringify(decompressed).length);
-
-
