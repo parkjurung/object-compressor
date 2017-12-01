@@ -32,7 +32,7 @@ function innerCompress(object: any, plainToMin: { [plain: string]: string }, min
       compressedObjects.push(innerCompress(item, plainToMin, minToPlain, mapCnt));
     });
     return compressedObjects;
-  } else if (typeof object === 'object') { // object
+  } else if (object && (typeof object === 'object')) { // object
     let newObj = {};
     Object.keys(object).forEach(key => {
       let minKey;
@@ -75,7 +75,7 @@ function innerDecompress(object: any, dictionary: { [min: string]: string }) {
       decompressedObjects.push(innerDecompress(item, dictionary));
     });
     return decompressedObjects;
-  } else if (typeof object === 'object') { // object
+  } else if (object && (typeof object === 'object')) { // object
     let newObj = {};
     Object.keys(object).forEach(key => {
       let originalKey = dictionary[key];

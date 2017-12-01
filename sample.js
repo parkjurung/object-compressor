@@ -38,7 +38,7 @@ exports.SAMPLE_PLAIN = [
             }
         },
         score: {
-            'user:102030401': 133,
+            'user:102030401': null,
             'user:102011201': 123,
             'user:104451203': 143
         }
@@ -53,7 +53,7 @@ exports.SAMPLE_PLAIN = [
         },
         score: {
             'user:102030401': 123,
-            'user:102011201': 123,
+            'user:102011201': null,
             'user:104451203': 143
         }
     },
