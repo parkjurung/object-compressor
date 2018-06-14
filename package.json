@@ -2,10 +2,11 @@
   "name": "object-compressor",
   "version": "1.1.1",
   "description": "npm module for compressing js objects",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
-    "test": "tsc index.ts && tsc test/ts-test.ts && node test/js-test.js && node test/ts-test.js",
-    "build": "tsc index.ts && tsc test/ts-test.ts && node test/js-test.js && node test/ts-test.js"
+    "test": "echo 11111",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
